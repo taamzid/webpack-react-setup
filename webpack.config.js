@@ -10,6 +10,9 @@ module.exports = {
     path: path.join(__dirname, "/dist"),
     filename: "bundle.js",
   },
+  devServer: {
+    port: 3000,
+  },
 
   //Setup loaders
   module: {
